@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soar/projectExp
+CMAKE_SOURCE_DIR = /home/soar/examplesOfOpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soar/projectExp
+CMAKE_BINARY_DIR = /home/soar/examplesOfOpenCV/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/soar/projectExp/CMakeFiles /home/soar/projectExp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/soar/examplesOfOpenCV/build/CMakeFiles /home/soar/examplesOfOpenCV/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/soar/projectExp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/soar/examplesOfOpenCV/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cameratest
+# Target rules for targets named testsoar
 
 # Build rule for target.
-cameratest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cameratest
-.PHONY : cameratest
+testsoar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testsoar
+.PHONY : testsoar
 
 # fast build rule for target.
-cameratest/fast:
-	$(MAKE) -f bin/CMakeFiles/cameratest.dir/build.make bin/CMakeFiles/cameratest.dir/build
-.PHONY : cameratest/fast
+testsoar/fast:
+	$(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
+.PHONY : testsoar/fast
 
 # Help Target
 help:
@@ -181,7 +181,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cameratest"
+	@echo "... testsoar"
 .PHONY : help
 
 
