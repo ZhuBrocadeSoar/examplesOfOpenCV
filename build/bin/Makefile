@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-imread/main.o: imread/main.cpp.o
+cap/main.o: cap/main.cpp.o
 
-.PHONY : imread/main.o
+.PHONY : cap/main.o
 
 # target to build an object file
-imread/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/imread/main.cpp.o
-.PHONY : imread/main.cpp.o
+cap/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cap/main.cpp.o
+.PHONY : cap/main.cpp.o
 
-imread/main.i: imread/main.cpp.i
+cap/main.i: cap/main.cpp.i
 
-.PHONY : imread/main.i
+.PHONY : cap/main.i
 
 # target to preprocess a source file
-imread/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/imread/main.cpp.i
-.PHONY : imread/main.cpp.i
+cap/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cap/main.cpp.i
+.PHONY : cap/main.cpp.i
 
-imread/main.s: imread/main.cpp.s
+cap/main.s: cap/main.cpp.s
 
-.PHONY : imread/main.s
+.PHONY : cap/main.s
 
 # target to generate assembly for a file
-imread/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/imread/main.cpp.s
-.PHONY : imread/main.cpp.s
+cap/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cap/main.cpp.s
+.PHONY : cap/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... imread/main.o"
-	@echo "... imread/main.i"
-	@echo "... imread/main.s"
+	@echo "... cap/main.o"
+	@echo "... cap/main.i"
+	@echo "... cap/main.s"
 .PHONY : help
 
 

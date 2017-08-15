@@ -2,7 +2,7 @@
 include_directories(/usr/include/opencv /usr/include/opencv2 /usr/include/gsl )
 
 # set list of src
-set(SRC_LIST imread/main.cpp)
+set(SRC_LIST cap/main.cpp)
 
 # create executable file
 add_executable(testsoar ${SRC_LIST})

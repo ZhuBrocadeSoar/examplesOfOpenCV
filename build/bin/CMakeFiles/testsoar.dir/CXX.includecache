@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soar/examplesOfOpenCV/src/imread/main.cpp
+/home/soar/examplesOfOpenCV/src/cap/main.cpp
 iostream
 -
 opencv2/core/core.hpp

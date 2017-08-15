@@ -57,38 +57,38 @@ include bin/CMakeFiles/testsoar.dir/progress.make
 # Include the compile flags for this target's objects.
 include bin/CMakeFiles/testsoar.dir/flags.make
 
-bin/CMakeFiles/testsoar.dir/imread/main.cpp.o: bin/CMakeFiles/testsoar.dir/flags.make
-bin/CMakeFiles/testsoar.dir/imread/main.cpp.o: ../src/imread/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soar/examplesOfOpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/testsoar.dir/imread/main.cpp.o"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testsoar.dir/imread/main.cpp.o -c /home/soar/examplesOfOpenCV/src/imread/main.cpp
+bin/CMakeFiles/testsoar.dir/cap/main.cpp.o: bin/CMakeFiles/testsoar.dir/flags.make
+bin/CMakeFiles/testsoar.dir/cap/main.cpp.o: ../src/cap/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soar/examplesOfOpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/testsoar.dir/cap/main.cpp.o"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testsoar.dir/cap/main.cpp.o -c /home/soar/examplesOfOpenCV/src/cap/main.cpp
 
-bin/CMakeFiles/testsoar.dir/imread/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testsoar.dir/imread/main.cpp.i"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soar/examplesOfOpenCV/src/imread/main.cpp > CMakeFiles/testsoar.dir/imread/main.cpp.i
+bin/CMakeFiles/testsoar.dir/cap/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testsoar.dir/cap/main.cpp.i"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soar/examplesOfOpenCV/src/cap/main.cpp > CMakeFiles/testsoar.dir/cap/main.cpp.i
 
-bin/CMakeFiles/testsoar.dir/imread/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testsoar.dir/imread/main.cpp.s"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soar/examplesOfOpenCV/src/imread/main.cpp -o CMakeFiles/testsoar.dir/imread/main.cpp.s
+bin/CMakeFiles/testsoar.dir/cap/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testsoar.dir/cap/main.cpp.s"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soar/examplesOfOpenCV/src/cap/main.cpp -o CMakeFiles/testsoar.dir/cap/main.cpp.s
 
-bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.requires:
+bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.requires:
 
-.PHONY : bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.requires
+.PHONY : bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.requires
 
-bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.provides: bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.requires
-	$(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.provides.build
-.PHONY : bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.provides
+bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.provides: bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.requires
+	$(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.provides.build
+.PHONY : bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.provides
 
-bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.provides.build: bin/CMakeFiles/testsoar.dir/imread/main.cpp.o
+bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.provides.build: bin/CMakeFiles/testsoar.dir/cap/main.cpp.o
 
 
 # Object files for target testsoar
 testsoar_OBJECTS = \
-"CMakeFiles/testsoar.dir/imread/main.cpp.o"
+"CMakeFiles/testsoar.dir/cap/main.cpp.o"
 
 # External object files for target testsoar
 testsoar_EXTERNAL_OBJECTS =
 
-bin/testsoar: bin/CMakeFiles/testsoar.dir/imread/main.cpp.o
+bin/testsoar: bin/CMakeFiles/testsoar.dir/cap/main.cpp.o
 bin/testsoar: bin/CMakeFiles/testsoar.dir/build.make
 bin/testsoar: /usr/lib/libopencv_stitching.so.3.2.0
 bin/testsoar: /usr/lib/libopencv_superres.so.3.2.0
@@ -142,7 +142,7 @@ bin/CMakeFiles/testsoar.dir/build: bin/testsoar
 
 .PHONY : bin/CMakeFiles/testsoar.dir/build
 
-bin/CMakeFiles/testsoar.dir/requires: bin/CMakeFiles/testsoar.dir/imread/main.cpp.o.requires
+bin/CMakeFiles/testsoar.dir/requires: bin/CMakeFiles/testsoar.dir/cap/main.cpp.o.requires
 
 .PHONY : bin/CMakeFiles/testsoar.dir/requires
 
