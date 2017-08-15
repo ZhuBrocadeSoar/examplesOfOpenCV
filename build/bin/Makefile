@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-fileter/main.o: fileter/main.cpp.o
+fileter_sharpen/main.o: fileter_sharpen/main.cpp.o
 
-.PHONY : fileter/main.o
+.PHONY : fileter_sharpen/main.o
 
 # target to build an object file
-fileter/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter/main.cpp.o
-.PHONY : fileter/main.cpp.o
+fileter_sharpen/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter_sharpen/main.cpp.o
+.PHONY : fileter_sharpen/main.cpp.o
 
-fileter/main.i: fileter/main.cpp.i
+fileter_sharpen/main.i: fileter_sharpen/main.cpp.i
 
-.PHONY : fileter/main.i
+.PHONY : fileter_sharpen/main.i
 
 # target to preprocess a source file
-fileter/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter/main.cpp.i
-.PHONY : fileter/main.cpp.i
+fileter_sharpen/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter_sharpen/main.cpp.i
+.PHONY : fileter_sharpen/main.cpp.i
 
-fileter/main.s: fileter/main.cpp.s
+fileter_sharpen/main.s: fileter_sharpen/main.cpp.s
 
-.PHONY : fileter/main.s
+.PHONY : fileter_sharpen/main.s
 
 # target to generate assembly for a file
-fileter/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter/main.cpp.s
-.PHONY : fileter/main.cpp.s
+fileter_sharpen/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter_sharpen/main.cpp.s
+.PHONY : fileter_sharpen/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... fileter/main.o"
-	@echo "... fileter/main.i"
-	@echo "... fileter/main.s"
+	@echo "... fileter_sharpen/main.o"
+	@echo "... fileter_sharpen/main.i"
+	@echo "... fileter_sharpen/main.s"
 .PHONY : help
 
 

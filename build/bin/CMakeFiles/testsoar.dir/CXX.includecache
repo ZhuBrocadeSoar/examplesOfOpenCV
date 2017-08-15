@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/soar/examplesOfOpenCV/src/fileter/main.cpp
+/home/soar/examplesOfOpenCV/src/fileter_sharpen/main.cpp
 iostream
 -
 opencv2/core/core.hpp
 -
-opencv2/imgproc/imgproc.hpp
--
 opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
 -
 
