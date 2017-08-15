@@ -1,0 +1,13 @@
+/home/soar/projectExp/CMakeFiles/install/strip.dir
+/home/soar/projectExp/CMakeFiles/install.dir
+/home/soar/projectExp/CMakeFiles/install/local.dir
+/home/soar/projectExp/CMakeFiles/list_install_components.dir
+/home/soar/projectExp/CMakeFiles/edit_cache.dir
+/home/soar/projectExp/CMakeFiles/rebuild_cache.dir
+/home/soar/projectExp/bin/CMakeFiles/install/strip.dir
+/home/soar/projectExp/bin/CMakeFiles/edit_cache.dir
+/home/soar/projectExp/bin/CMakeFiles/cameratest.dir
+/home/soar/projectExp/bin/CMakeFiles/list_install_components.dir
+/home/soar/projectExp/bin/CMakeFiles/install/local.dir
+/home/soar/projectExp/bin/CMakeFiles/rebuild_cache.dir
+/home/soar/projectExp/bin/CMakeFiles/install.dir
