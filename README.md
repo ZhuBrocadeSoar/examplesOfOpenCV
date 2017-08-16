@@ -137,3 +137,6 @@ I will do something.
     ```c+++
     template<typename _Tp> cv::Size_<_Tp>::Size_(_Tp _width, _Tp _height)
     ```
+* Picture	:	
+
+    ![diff](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/smooth.png)
