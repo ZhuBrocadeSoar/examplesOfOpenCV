@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-fileter_sharpen/main.o: fileter_sharpen/main.cpp.o
+cvt_color/main.o: cvt_color/main.cpp.o
 
-.PHONY : fileter_sharpen/main.o
+.PHONY : cvt_color/main.o
 
 # target to build an object file
-fileter_sharpen/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter_sharpen/main.cpp.o
-.PHONY : fileter_sharpen/main.cpp.o
+cvt_color/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cvt_color/main.cpp.o
+.PHONY : cvt_color/main.cpp.o
 
-fileter_sharpen/main.i: fileter_sharpen/main.cpp.i
+cvt_color/main.i: cvt_color/main.cpp.i
 
-.PHONY : fileter_sharpen/main.i
+.PHONY : cvt_color/main.i
 
 # target to preprocess a source file
-fileter_sharpen/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter_sharpen/main.cpp.i
-.PHONY : fileter_sharpen/main.cpp.i
+cvt_color/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cvt_color/main.cpp.i
+.PHONY : cvt_color/main.cpp.i
 
-fileter_sharpen/main.s: fileter_sharpen/main.cpp.s
+cvt_color/main.s: cvt_color/main.cpp.s
 
-.PHONY : fileter_sharpen/main.s
+.PHONY : cvt_color/main.s
 
 # target to generate assembly for a file
-fileter_sharpen/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/fileter_sharpen/main.cpp.s
-.PHONY : fileter_sharpen/main.cpp.s
+cvt_color/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cvt_color/main.cpp.s
+.PHONY : cvt_color/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... fileter_sharpen/main.o"
-	@echo "... fileter_sharpen/main.i"
-	@echo "... fileter_sharpen/main.s"
+	@echo "... cvt_color/main.o"
+	@echo "... cvt_color/main.i"
+	@echo "... cvt_color/main.s"
 .PHONY : help
 
 

@@ -164,3 +164,6 @@ I will do something.
     void cv::cvtColor(InputArray src, OutputArray dst, int code, int dstCn = 0)
     ```
 * Ref		:	[ColorConversionCode](http://docs.opencv.org/master/d7/d1b/group__imgproc__misc.html#ga4e0972be5de079fed4e3a10e24ef5ef0)
+
+* Pictures	:
+    ![cvt_color](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/cvt_color.png)
