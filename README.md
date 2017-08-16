@@ -167,3 +167,14 @@ I will do something.
 
 * Pictures	:
     ![cvt_color](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/cvt_color.png)
+
+### threshold(frameInGray, frameInBinary, threshold_value, max_BINARY_value, threshold_type);
+* From		:	Page 53
+* Include	:	opencv2/imgproc.hpp
+* Ref		:	[threshold()](http://docs.opencv.org/master/d7/d1b/group__imgproc__misc.html#gae8a4a146d1ca78c626a53577199e9c57)
+
+	```c++
+    double cv::threshold(InputArray src, OutputArray dst, double thresh, double maxval, int type)
+    ```
+* Pictures	:
+    ![cvt_color](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/threshold.png)

@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-cvt_color/main.o: cvt_color/main.cpp.o
+threshold/main.o: threshold/main.cpp.o
 
-.PHONY : cvt_color/main.o
+.PHONY : threshold/main.o
 
 # target to build an object file
-cvt_color/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cvt_color/main.cpp.o
-.PHONY : cvt_color/main.cpp.o
+threshold/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/threshold/main.cpp.o
+.PHONY : threshold/main.cpp.o
 
-cvt_color/main.i: cvt_color/main.cpp.i
+threshold/main.i: threshold/main.cpp.i
 
-.PHONY : cvt_color/main.i
+.PHONY : threshold/main.i
 
 # target to preprocess a source file
-cvt_color/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cvt_color/main.cpp.i
-.PHONY : cvt_color/main.cpp.i
+threshold/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/threshold/main.cpp.i
+.PHONY : threshold/main.cpp.i
 
-cvt_color/main.s: cvt_color/main.cpp.s
+threshold/main.s: threshold/main.cpp.s
 
-.PHONY : cvt_color/main.s
+.PHONY : threshold/main.s
 
 # target to generate assembly for a file
-cvt_color/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/cvt_color/main.cpp.s
-.PHONY : cvt_color/main.cpp.s
+threshold/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/threshold/main.cpp.s
+.PHONY : threshold/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... cvt_color/main.o"
-	@echo "... cvt_color/main.i"
-	@echo "... cvt_color/main.s"
+	@echo "... threshold/main.o"
+	@echo "... threshold/main.i"
+	@echo "... threshold/main.s"
 .PHONY : help
 
 
