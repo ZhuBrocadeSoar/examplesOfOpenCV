@@ -4,7 +4,7 @@ A set of example to use OpenCV.
 
 It is a good way to learn OpenCV.
 
-# mans of functions and others
+# Mans of functions and others
 
 I find that my book is not good for learning OpenCV, It's mix the C API and the C++ API, I thik i must do something.My book is ***Arduino Computer Vision Programming*** by Ozen Ozkaya and Giray Yillikci, translated by Zhang Huadong.
 
@@ -67,3 +67,49 @@ I will do something.
     // delay in milliseconds,ms; 0 means "forever"
     ```
 * Ref		:	[keyCode?](http://blog.csdn.net/woshinia/article/details/12841797)
+
+### VideoCapture cap(CV_CAP_ANY);
+* From		:	Page 32
+* Include	:	opencv2/videoio.hpp
+* Ref		:	[VideoCapture()](http://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html#a5d5f5dacb77bbebdcbfb341e3d4355c1)
+
+    ```c++
+    cv::VideoCapture::VideoCapture(int index)
+    ```
+* Ref		:	[cv::VideoCaptureAPIs](http://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html#a5d5f5dacb77bbebdcbfb341e3d4355c1)
+
+### cap >> frame;
+* From		:	Page 32
+* Include	:	opencv2/videoio.hpp
+* Ref		:	[operator>>()](http://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html#a199844fb74226a28b3ce3a39d1ff6765)
+	
+    ```c++
+    virtual VideoCapture& cv::VideoCapture::operator>> (Mat & image)
+    ```
+* Ref		:	[read()](http://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html#a473055e77dd7faa4d26d686226b292c1)
+
+	```c++
+    virtual bool cv::VideoCapture::read(OutPutArray image)
+    ```
+
+### if(frame.empty()){
+* From		:	Page 32
+* Include	:	opencv2/core.hpp
+* Ref		:	[empty()](http://docs.opencv.org/master/d3/d63/classcv_1_1Mat.html#abbec3525a852e77998aba034813fded4)
+
+    ```c++
+    bool cv::Mat::empty()const
+    ```
+* Tips		:	Returns true if the array has no elements.
+    
+    The method returns true if Mat::total() is 0 or if Mat::data is NULL. Because of pop\_back() and resize() methods M.total() == 0 does not imply that M.data == NULL. 
+
+### imwrite(argv[1], frame);
+* From		:	Page 32
+* Include	:	opencv2/imgcodecs.hpp
+* Ref		:	[imwrite()](http://docs.opencv.org/master/d4/da8/group__imgcodecs.html#gabbc7ef1aa2edfaa87772f1202d67e0ce)
+
+    ```c++
+    bool cv::imwrite(const String & filename, InputArray img, const std::vector< int > & params = std::vector< int >())
+    ```
+* Ref		:	[enum cv::ImwriteFlags](http://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga292d81be8d76901bff7988d18d2b42ac)
