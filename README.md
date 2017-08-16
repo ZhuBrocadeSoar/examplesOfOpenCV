@@ -139,4 +139,18 @@ I will do something.
     ```
 * Picture	:	
 
-    ![diff](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/smooth.png)
+    ![smooth](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/smooth.png)
+
+### addWeighted(frameIn, 1.5, frameBlurred, -0.5, 0, frameOut);
+* From		:	Page 51
+* Include	:	opencv2/core.hpp
+* Ref		:	[addWeighted()](http://docs.opencv.org/master/d2/de8/group__core__array.html#gafafb2513349db3bcff51f54ee5592a19)
+
+	```c++
+    void cv::addWeighted(InputArray src1, double alpha, InputArray src2, double beta, double gamma, OutPutArray dst, int dtype = -1)
+    ```
+
+* Pictures	:
+    ![sharpen1](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/sharpen1.png)
+    ![sharpen1](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/sharpen2.png)
+    ![sharpen1](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/sharpen3.png)
