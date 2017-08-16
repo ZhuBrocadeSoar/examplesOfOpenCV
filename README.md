@@ -113,3 +113,27 @@ I will do something.
     bool cv::imwrite(const String & filename, InputArray img, const std::vector< int > & params = std::vector< int >())
     ```
 * Ref		:	[enum cv::ImwriteFlags](http://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga292d81be8d76901bff7988d18d2b42ac)
+
+### GaussianBlur(frameIn, frameOut, Size(7, 7), 1.5, 1.5);
+* From		:	Page 50
+* Include	:	opencv2/imgproc.hpp
+* Ref		:	[GaussianBlur()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#gaabe8c836e97159a9193fb0b11ac52cf1)
+
+    ```c++
+    void cv::GaussianBlur(InputArray src, OutputArray dst, Size ksize, double sigmaX, double sigmaY = 0, int borderType = BORDER_DEFAULT)
+    ```
+* Ref		:	
+
+    ```c++
+    typedef Size2i cv::Size
+    ```
+* Ref		:
+
+    ```c++
+    typedef Size_<int> cv::Size2i
+    ```
+* Ref		:
+
+    ```c+++
+    template<typename _Tp> cv::Size_<_Tp>::Size_(_Tp _width, _Tp _height)
+    ```
