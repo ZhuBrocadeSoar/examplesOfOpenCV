@@ -89,7 +89,7 @@ I will do something.
 * Ref		:	[read()](http://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html#a473055e77dd7faa4d26d686226b292c1)
 
 	```c++
-    virtual bool cv::VideoCapture::read(OutPutArray image)
+    virtual bool cv::VideoCapture::read(OutputArray image)
     ```
 
 ### if(frame.empty()){
@@ -147,10 +147,20 @@ I will do something.
 * Ref		:	[addWeighted()](http://docs.opencv.org/master/d2/de8/group__core__array.html#gafafb2513349db3bcff51f54ee5592a19)
 
 	```c++
-    void cv::addWeighted(InputArray src1, double alpha, InputArray src2, double beta, double gamma, OutPutArray dst, int dtype = -1)
+    void cv::addWeighted(InputArray src1, double alpha, InputArray src2, double beta, double gamma, OutputArray dst, int dtype = -1)
     ```
 
 * Pictures	:
     ![sharpen1](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/sharpen1.png)
     ![sharpen1](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/sharpen2.png)
     ![sharpen1](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/sharpen3.png)
+
+### cvtColor(frameIn, frameInGray, CV_BGR2GRAY);
+* From		:	Page 52
+* Include	:	opencv2/imgproc.hpp
+* Ref		:	[cvtColor()](http://docs.opencv.org/master/d7/d1b/group__imgproc__misc.html#ga397ae87e1288a81d2363b61574eb8cab)
+
+	```c++
+    void cv::cvtColor(InputArray src, OutputArray dst, int code, int dstCn = 0)
+    ```
+* Ref		:	[ColorConversionCode](http://docs.opencv.org/master/d7/d1b/group__imgproc__misc.html#ga4e0972be5de079fed4e3a10e24ef5ef0)
