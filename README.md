@@ -189,5 +189,4 @@ I will do something.
     ```	
 * Pictures	:
     ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/adThreshold.png)
-* Pictures	:
     ![adThreshold_INV](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/adThresholdINV.png)
