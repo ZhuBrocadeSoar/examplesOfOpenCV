@@ -190,3 +190,25 @@ I will do something.
 * Pictures	:
     ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/adThreshold.png)
     ![adThreshold_INV](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/adThresholdINV.png)
+
+### erode(frameInBinary, frameOut, kernel);
+* From		:	Page 55	
+* Include	:	opencv2/imgproc.hpp	
+* Ref		:	[erode()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#gaeb1e0c1033e3f6b891a25d0511362aeb)
+
+	```c++
+    void cv::erode(InputArray src, OutputArray dst, InputArray kernel, Point anchor = Point(-1, -1), int iterations = 1, int borderType = BORDER_CONSTANT, const Scalar & borderValue = morphologyDefaultBorderValue() )
+    ```	
+* Ref		:	[erode(src, dst, element);](http://docs.opencv.org/master/d8/dc0/morphology2_8cpp-example.html#a9)
+
+	```c++
+    Mat element = getStructuringElement(element_shape, Size(an * 2 + 1, an * 2 +1), Point(an, an));
+    ```	
+* Ref		:	[getStructuringElement()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#gac342a1bb6eabf6f55c803b09268e36dc)
+
+	```c++
+    Mat cv::getStructuringElement(int shape, Size ksize, Point anchor = Point(-1, -1))
+    ```	
+* Tips		:	Note that only the shape of a cross-shaped element depends on the anchor position. In other casses the anchor just regulates
+
+* Ref		:	[MorphShapes](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#gac2db39b56866583a95a5680313c314ad)
