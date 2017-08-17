@@ -177,4 +177,17 @@ I will do something.
     double cv::threshold(InputArray src, OutputArray dst, double thresh, double maxval, int type)
     ```
 * Pictures	:
-    ![cvt_color](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/threshold.png)
+    ![threshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/threshold.png)
+
+### adaptiveThreshold(frameInGray, frameOut, MAX_BINARY_VALUE, ADAPTIVE_METHOD, THRESHOLD_TYPE, block_size, ADAPTIVE_CONSTANT);
+* From		:	Page 54
+* Include	:	opencv2/imgproc.hpp	
+* Ref		:	[adaptiveThreshold()](http://docs.opencv.org/master/d7/d1b/group__imgproc__misc.html#ga72b913f352e4a1b1b397736707afcde3)
+
+	```c++
+    void cv::adaptiveThreshold(InputArray src, OutputArray dst, double maxValue, int adaptiveMethod, int thresholdType, int blockSize, double C)
+    ```	
+* Pictures	:
+    ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/adThreshold.png)
+* Pictures	:
+    ![adThreshold_INV](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/adThresholdINV.png)
