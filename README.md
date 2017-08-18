@@ -252,3 +252,21 @@ I will do something.
 
 * Pictures	:
     ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/morphology.png)
+
+### Canny(frameInGray, frameOut, canny_low_threshold, canny_low_threshold*CANNY_RATIO, CANNY_KERNEL_SIZE);
+* From		:	Page 59	
+* Include	:	opencv2/imgproc.hpp	
+* Ref		:	[Canny()](http://docs.opencv.org/master/dd/d1a/group__imgproc__feature.html#ga04723e007ed888ddf11d9ba04e2232de)
+
+	```c++
+    void cv::Canny(InputArray image, OutputArray edges, double threshold1, double threshold2, int apertureSize = 3, bool L2gradient = false)
+    ```	
+
+### createTrackbar("Low Threshold:", "Canny Operation", &canny_low_threshold, CANNY_MAX_LOW_THRESHOLD, cannyOperation);
+* From		:	Page 67
+* Include	:	opencv2/highgui.hpp	
+* Ref		:	[createTrackbar()](http://docs.opencv.org/master/d7/dfc/group__highgui.html#gaf78d2155d30b728fc413803745b67a9b)
+
+	```c++
+    int cv::createTrackbar(const String & trackbarname, const String & winname, int * value, int count, TrackbarCallback onChange = 0, void * userdata = 0)
+    ```	
