@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-adThreshold/main.o: adThreshold/main.cpp.o
+erode/main.o: erode/main.cpp.o
 
-.PHONY : adThreshold/main.o
+.PHONY : erode/main.o
 
 # target to build an object file
-adThreshold/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o
-.PHONY : adThreshold/main.cpp.o
+erode/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/erode/main.cpp.o
+.PHONY : erode/main.cpp.o
 
-adThreshold/main.i: adThreshold/main.cpp.i
+erode/main.i: erode/main.cpp.i
 
-.PHONY : adThreshold/main.i
+.PHONY : erode/main.i
 
 # target to preprocess a source file
-adThreshold/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.i
-.PHONY : adThreshold/main.cpp.i
+erode/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/erode/main.cpp.i
+.PHONY : erode/main.cpp.i
 
-adThreshold/main.s: adThreshold/main.cpp.s
+erode/main.s: erode/main.cpp.s
 
-.PHONY : adThreshold/main.s
+.PHONY : erode/main.s
 
 # target to generate assembly for a file
-adThreshold/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.s
-.PHONY : adThreshold/main.cpp.s
+erode/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/erode/main.cpp.s
+.PHONY : erode/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... adThreshold/main.o"
-	@echo "... adThreshold/main.i"
-	@echo "... adThreshold/main.s"
+	@echo "... erode/main.o"
+	@echo "... erode/main.i"
+	@echo "... erode/main.s"
 .PHONY : help
 
 

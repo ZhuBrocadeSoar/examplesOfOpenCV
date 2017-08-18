@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/soar/examplesOfOpenCV/src/adThreshold/main.cpp
+/home/soar/examplesOfOpenCV/src/erode/main.cpp
 iostream
 -
 opencv2/core.hpp
--
-opencv2/imgcodecs.hpp
 -
 opencv2/imgproc.hpp
 -

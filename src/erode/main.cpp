@@ -41,7 +41,7 @@ int main(int argc, char** argv){
     // Mat
     Mat imageSrc, imageOut;
     // read
-    imageSrc = imread(argv[1], IMREAD_GRAYSCALE);
+    imageSrc = imread(argv[1], IMREAD_UNCHANGED);
     // check src
     if(imageSrc.empty()){
         puts(" Error: Faild to open the image");
