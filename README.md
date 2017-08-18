@@ -209,6 +209,9 @@ I will do something.
 	```c++
     Mat cv::getStructuringElement(int shape, Size ksize, Point anchor = Point(-1, -1))
     ```	
-* Tips		:	Note that only the shape of a cross-shaped element depends on the anchor position. In other casses the anchor just regulates
+* Tips		:	Note that only the shape of a cross-shaped element depends on the anchor position. In other casses the anchor just regulates how much the result of the morphological operation is shifted.
 
 * Ref		:	[MorphShapes](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#gac2db39b56866583a95a5680313c314ad)
+
+* Pictures	:
+    ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/erode.png)
