@@ -57,38 +57,38 @@ include bin/CMakeFiles/testsoar.dir/progress.make
 # Include the compile flags for this target's objects.
 include bin/CMakeFiles/testsoar.dir/flags.make
 
-bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o: bin/CMakeFiles/testsoar.dir/flags.make
-bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o: ../src/dilate/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soar/examplesOfOpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testsoar.dir/dilate/main.cpp.o -c /home/soar/examplesOfOpenCV/src/dilate/main.cpp
+bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o: bin/CMakeFiles/testsoar.dir/flags.make
+bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o: ../src/adThreshold/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soar/examplesOfOpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testsoar.dir/adThreshold/main.cpp.o -c /home/soar/examplesOfOpenCV/src/adThreshold/main.cpp
 
-bin/CMakeFiles/testsoar.dir/dilate/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testsoar.dir/dilate/main.cpp.i"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soar/examplesOfOpenCV/src/dilate/main.cpp > CMakeFiles/testsoar.dir/dilate/main.cpp.i
+bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testsoar.dir/adThreshold/main.cpp.i"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soar/examplesOfOpenCV/src/adThreshold/main.cpp > CMakeFiles/testsoar.dir/adThreshold/main.cpp.i
 
-bin/CMakeFiles/testsoar.dir/dilate/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testsoar.dir/dilate/main.cpp.s"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soar/examplesOfOpenCV/src/dilate/main.cpp -o CMakeFiles/testsoar.dir/dilate/main.cpp.s
+bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testsoar.dir/adThreshold/main.cpp.s"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soar/examplesOfOpenCV/src/adThreshold/main.cpp -o CMakeFiles/testsoar.dir/adThreshold/main.cpp.s
 
-bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.requires:
+bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.requires:
 
-.PHONY : bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.requires
+.PHONY : bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.requires
 
-bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.provides: bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.requires
-	$(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.provides.build
-.PHONY : bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.provides
+bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.provides: bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.requires
+	$(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.provides.build
+.PHONY : bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.provides
 
-bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.provides.build: bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o
+bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.provides.build: bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o
 
 
 # Object files for target testsoar
 testsoar_OBJECTS = \
-"CMakeFiles/testsoar.dir/dilate/main.cpp.o"
+"CMakeFiles/testsoar.dir/adThreshold/main.cpp.o"
 
 # External object files for target testsoar
 testsoar_EXTERNAL_OBJECTS =
 
-bin/testsoar: bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o
+bin/testsoar: bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o
 bin/testsoar: bin/CMakeFiles/testsoar.dir/build.make
 bin/testsoar: /usr/lib/libopencv_stitching.so.3.2.0
 bin/testsoar: /usr/lib/libopencv_superres.so.3.2.0
@@ -142,7 +142,7 @@ bin/CMakeFiles/testsoar.dir/build: bin/testsoar
 
 .PHONY : bin/CMakeFiles/testsoar.dir/build
 
-bin/CMakeFiles/testsoar.dir/requires: bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o.requires
+bin/CMakeFiles/testsoar.dir/requires: bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o.requires
 
 .PHONY : bin/CMakeFiles/testsoar.dir/requires
 

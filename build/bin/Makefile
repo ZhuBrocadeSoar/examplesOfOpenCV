@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-dilate/main.o: dilate/main.cpp.o
+adThreshold/main.o: adThreshold/main.cpp.o
 
-.PHONY : dilate/main.o
+.PHONY : adThreshold/main.o
 
 # target to build an object file
-dilate/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o
-.PHONY : dilate/main.cpp.o
+adThreshold/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o
+.PHONY : adThreshold/main.cpp.o
 
-dilate/main.i: dilate/main.cpp.i
+adThreshold/main.i: adThreshold/main.cpp.i
 
-.PHONY : dilate/main.i
+.PHONY : adThreshold/main.i
 
 # target to preprocess a source file
-dilate/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/dilate/main.cpp.i
-.PHONY : dilate/main.cpp.i
+adThreshold/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.i
+.PHONY : adThreshold/main.cpp.i
 
-dilate/main.s: dilate/main.cpp.s
+adThreshold/main.s: adThreshold/main.cpp.s
 
-.PHONY : dilate/main.s
+.PHONY : adThreshold/main.s
 
 # target to generate assembly for a file
-dilate/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/dilate/main.cpp.s
-.PHONY : dilate/main.cpp.s
+adThreshold/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.s
+.PHONY : adThreshold/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... dilate/main.o"
-	@echo "... dilate/main.i"
-	@echo "... dilate/main.s"
+	@echo "... adThreshold/main.o"
+	@echo "... adThreshold/main.i"
+	@echo "... adThreshold/main.s"
 .PHONY : help
 
 

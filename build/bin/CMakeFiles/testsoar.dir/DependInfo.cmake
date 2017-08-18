@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/soar/examplesOfOpenCV/src/dilate/main.cpp" "/home/soar/examplesOfOpenCV/build/bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o"
+  "/home/soar/examplesOfOpenCV/src/adThreshold/main.cpp" "/home/soar/examplesOfOpenCV/build/bin/CMakeFiles/testsoar.dir/adThreshold/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
