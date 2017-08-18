@@ -224,6 +224,7 @@ I will do something.
 
 ### dilate(frameInBinary, frameOut, kernel);
 * From		:	Page 56	
+* Include	:	opencv2/imgproc.hpp	
 * Ref		:	[dilate()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#ga4ff0f3318642c4f469d0e11f242f3b6c)
 
 	```c++
@@ -238,3 +239,16 @@ I will do something.
     ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/dilate4.png)
     ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/dilate5.png)
     ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/dilate6.png)
+
+### morphology(frameInBinary, frameOut, MORPH_CLOSE, kernel);
+* From		:	Page 57
+* Include	:	opencv2/imgproc.hpp	
+* Ref		:	[morphologyEx()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#ga67493776e3ad1a3df63883829375201f)
+
+	```c++
+    void cv::morphologyEx(InputArray src, OutputArray dst, int op, InputArray kernel, Point anchor = Point(-1, -1), int iterations = 1, int borderType = BORDER_CONSTANT, const Scalar & borderValue = morphologyDefaultBorderValue() )
+    ```	
+* Ref		:	[MorphTypes](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#ga7be549266bad7b2e6a04db49827f9f32)
+
+* Pictures	:
+    ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/morphology.png)
