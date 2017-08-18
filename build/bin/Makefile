@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-erode/main.o: erode/main.cpp.o
+dilate/main.o: dilate/main.cpp.o
 
-.PHONY : erode/main.o
+.PHONY : dilate/main.o
 
 # target to build an object file
-erode/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/erode/main.cpp.o
-.PHONY : erode/main.cpp.o
+dilate/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/dilate/main.cpp.o
+.PHONY : dilate/main.cpp.o
 
-erode/main.i: erode/main.cpp.i
+dilate/main.i: dilate/main.cpp.i
 
-.PHONY : erode/main.i
+.PHONY : dilate/main.i
 
 # target to preprocess a source file
-erode/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/erode/main.cpp.i
-.PHONY : erode/main.cpp.i
+dilate/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/dilate/main.cpp.i
+.PHONY : dilate/main.cpp.i
 
-erode/main.s: erode/main.cpp.s
+dilate/main.s: dilate/main.cpp.s
 
-.PHONY : erode/main.s
+.PHONY : dilate/main.s
 
 # target to generate assembly for a file
-erode/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/erode/main.cpp.s
-.PHONY : erode/main.cpp.s
+dilate/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/dilate/main.cpp.s
+.PHONY : dilate/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... erode/main.o"
-	@echo "... erode/main.i"
-	@echo "... erode/main.s"
+	@echo "... dilate/main.o"
+	@echo "... dilate/main.i"
+	@echo "... dilate/main.s"
 .PHONY : help
 
 

@@ -215,3 +215,14 @@ I will do something.
 
 * Pictures	:
     ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/erode.png)
+
+### dilate(frameInBinary, frameOut, kernel);
+* From		:	Page 56	
+* Ref		:	[dilate()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#ga4ff0f3318642c4f469d0e11f242f3b6c)
+
+	```c++
+    void cv::dilate(InputArray src, OutputArray dst, InputArray kernel, Point anchor = Point(-1, -1), int iterations = 1, int borderType = BORDER_CONSTANT, const Scalar & borderValue = morphologyDefaultBorderValue() )
+    ```	
+
+* Pictures	:
+    ![adThreshold](https://raw.githubusercontent.com/ZhuBrocadeSoar/examplesOfOpenCV/master/img/result/dilate.png)

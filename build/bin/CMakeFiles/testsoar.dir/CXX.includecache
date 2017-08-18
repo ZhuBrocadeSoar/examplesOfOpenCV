@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soar/examplesOfOpenCV/src/erode/main.cpp
+/home/soar/examplesOfOpenCV/src/dilate/main.cpp
 iostream
 -
 opencv2/core.hpp
