@@ -1,8 +1,8 @@
 /*************************************************************************
-	> File Name: ../src/canny/main.cpp
+	> File Name: ../src/LoG/main.cpp
 	> Author: Zhu Brocadesoar
 	> Mail: brocadesoar@gmail.com
-	> Created Time: Fri 18 Aug 2017 10:21:56 PM CST
+	> Created Time: Sat 02 Sep 2017 03:20:02 AM CST
  ************************************************************************/
 
 #include<iostream>
@@ -20,7 +20,7 @@ Mat imageSrc, imageGauss, imageGray, imageEdges;
 char wdowNameSrc[] = "原图像";
 char wdowNameGauss[] = "高斯模糊";
 char wdowNameGray[] = "灰度图像";
-char wdowNameEdges[] = "Canny边缘图像";
+char wdowNameEdges[] = "LoG边缘图像";
 char wdowNameCtrl[] = "控制面板";
 
 // Kernel Size Height
@@ -93,34 +93,34 @@ void tBInitSdeviYCt(void){
 // max of sDeviCt
 const int sDeviCtMax = 200;
 
-// Threshold 1
+// Threshold 1(scale)
 // thd1 = 0,1,2,3...255
 // thd1Ct = 0,1,2,3...255
 // thd1 = thd1Ct;
-int thd1Ct = 128;
+int thd1Ct = 1;
 int thd1(void){
     return thd1Ct;
 }
-char tBNameThd1Ct[] = "Threshold 1 Count(map to 0,1,2,3...255)";
+char tBNameThd1Ct[] = "Scale Count(map to 0,1,2,3...255)";
 void tBCallThd1Ct(int, void*);
 void tBInitThd1Ct(void){
-    thd1Ct = 128;
+    thd1Ct = 1;
     setTrackbarPos(tBNameThd1Ct, wdowNameCtrl, thd1Ct);
     return ;
 }
 
-// Threshold 2
+// Threshold 2(delta)
 // thd2 = 0,1,2,3...255
 // thd2Ct = 0,1,2,3...255
 // thd2 = thd2Ct;
-int thd2Ct = 255;
+int thd2Ct = 0;
 int thd2(void){
     return thd2Ct;
 }
-char tBNameThd2Ct[] = "Threshold 2 Count(map to 0,1,2,3...256)";
+char tBNameThd2Ct[] = "Delta Count(map to 0,1,2,3...255)";
 void tBCallThd2Ct(int, void*);
 void tBInitThd2Ct(void){
-    thd2Ct = 255;
+    thd2Ct = 0;
     setTrackbarPos(tBNameThd2Ct, wdowNameCtrl, thd2Ct);
     return ;
 }
@@ -129,14 +129,14 @@ void tBInitThd2Ct(void){
 const int thdCtMax = 255;
 
 // Aperture Size
-// apeSize = 3,5,7
-// apeSizeCt = 0,1,2
-// apeSize = (apeSizeCt + 1) * 2 + 1;
+// apeSize = 1,3,5,7
+// apeSizeCt = 0,1,2,3
+// apeSize = apeSizeCt * 2 + 1;
 int apeSizeCt = 0;
 int apeSize(void){
-    return (apeSizeCt + 1) * 2 + 1;
+    return apeSizeCt * 2 + 1;
 }
-char tBNameApeSizeCt[] = "Aperture Size Count(map to 3,5,7)";
+char tBNameApeSizeCt[] = "Aperture Size Count(map to 1,3,5,7)";
 void tBCallApeSizeCt(int, void*);
 void tBInitApeSizeCt(void){
     apeSizeCt = 0;
@@ -145,7 +145,7 @@ void tBInitApeSizeCt(void){
 }
 
 // max of apeSizeCt
-const int apeSizeCtMax = 2;
+const int apeSizeCtMax = 3;
 
 bool isInvalid(void){
     if(kSizeW() == 0 || kSizeH() == 0){
@@ -271,7 +271,7 @@ void tBCallApeSizeCt(int, void*){
 void runCanny(void){
     GaussianBlur(imageSrc, imageGauss, Size(kSizeW(), kSizeH()), sDeviX(), sDeviY());
     cvtColor(imageGauss, imageGray, COLOR_RGB2GRAY);
-    Canny(imageGray, imageEdges, thd1(), thd2(), apeSize());
+    Laplacian(imageGray, imageEdges, CV_8UC1, apeSize(), thd1(), thd2());
     return ;
 }
 

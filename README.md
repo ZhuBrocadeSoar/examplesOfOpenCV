@@ -14,6 +14,8 @@ It is a good way to learn OpenCV.
 
 2017年9月1日18:48 canny滤波器完成，接下来是LoG滤波器
 
+2017年9月1日21:13 LoG 和 Sobel完成，感觉LoG 就是Sobel的dx=dy=1
+
 # Mans of functions and others
 
 I find that my book is not good for learning OpenCV, It's mix the C API and the C++ API, I thik i must do something.My book is ***Arduino Computer Vision Programming*** by Ozen Ozkaya and Giray Yillikci, translated by Zhang Huadong.
@@ -289,3 +291,23 @@ I will do something.
 	```c++
     void cv::setTrackbarPos(const String & trackbarname, const String & winname, int pos)
     ```	
+
+### Laplacian(frameInGray, frameOut, LAPLACIAN_DEPTH, KERNEL_SIZE, LAPLACIAN_SCALE, LAPLACIAN_DELTA, BORDER_DEFAULT);
+* From		:	Page 60	
+* Include	:	opencv2/imgproc.hpp	
+* Ref		:	[Laplacian()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#gad78703e4c8fe703d479c1860d76429e6)
+
+	```c++
+    void cv::Laplacian(InputArray src, OutputArray dst, int ddepth, int ksize = 1, double scale = 1, double delta = 0, int borderType = BORDER_DEFAULT)
+    ```	
+
+### Sobel(frameInGray, frameOut, SOBEL_DEPTH, SOBEL_X_DERIVATIVE, SOBEL_Y_DERIVATIVE, 2 * sobel_kernel_size + 1, SOBEL_SCALE, SOBEL_DELTA, BORDER_DEFAULT);
+* From		:	Page 62
+* Include	:	opencv2/imgproc.hpp	
+* Ref		:	[Sobel()](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#gacea54f142e81b6758cb6f375ce782c8d)
+
+	```c++
+    void cv::Sobel(InputArray src, OutputArray dst, int ddepth, int dx, int dy, int ksize = 3, double scale = 1, double delta = 0, int borderType = BORDER_DEFAULT)
+    ```	
+
+* Ref		:	[Depth combinations](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#filter_depths)

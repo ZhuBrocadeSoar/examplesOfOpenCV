@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/testsoar.dir/canny/main.cpp.o"
+  "CMakeFiles/testsoar.dir/sobel/main.cpp.o"
   "testsoar.pdb"
   "testsoar"
 )

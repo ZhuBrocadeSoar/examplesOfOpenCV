@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-canny/main.o: canny/main.cpp.o
+sobel/main.o: sobel/main.cpp.o
 
-.PHONY : canny/main.o
+.PHONY : sobel/main.o
 
 # target to build an object file
-canny/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/canny/main.cpp.o
-.PHONY : canny/main.cpp.o
+sobel/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/sobel/main.cpp.o
+.PHONY : sobel/main.cpp.o
 
-canny/main.i: canny/main.cpp.i
+sobel/main.i: sobel/main.cpp.i
 
-.PHONY : canny/main.i
+.PHONY : sobel/main.i
 
 # target to preprocess a source file
-canny/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/canny/main.cpp.i
-.PHONY : canny/main.cpp.i
+sobel/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/sobel/main.cpp.i
+.PHONY : sobel/main.cpp.i
 
-canny/main.s: canny/main.cpp.s
+sobel/main.s: sobel/main.cpp.s
 
-.PHONY : canny/main.s
+.PHONY : sobel/main.s
 
 # target to generate assembly for a file
-canny/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/canny/main.cpp.s
-.PHONY : canny/main.cpp.s
+sobel/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/sobel/main.cpp.s
+.PHONY : sobel/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... canny/main.o"
-	@echo "... canny/main.i"
-	@echo "... canny/main.s"
+	@echo "... sobel/main.o"
+	@echo "... sobel/main.i"
+	@echo "... sobel/main.s"
 .PHONY : help
 
 
