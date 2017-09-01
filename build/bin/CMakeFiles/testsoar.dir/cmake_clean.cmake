@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/testsoar.dir/morphology/main.cpp.o"
+  "CMakeFiles/testsoar.dir/canny/main.cpp.o"
   "testsoar.pdb"
   "testsoar"
 )

@@ -57,38 +57,38 @@ include bin/CMakeFiles/testsoar.dir/progress.make
 # Include the compile flags for this target's objects.
 include bin/CMakeFiles/testsoar.dir/flags.make
 
-bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o: bin/CMakeFiles/testsoar.dir/flags.make
-bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o: ../src/morphology/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soar/examplesOfOpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testsoar.dir/morphology/main.cpp.o -c /home/soar/examplesOfOpenCV/src/morphology/main.cpp
+bin/CMakeFiles/testsoar.dir/canny/main.cpp.o: bin/CMakeFiles/testsoar.dir/flags.make
+bin/CMakeFiles/testsoar.dir/canny/main.cpp.o: ../src/canny/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soar/examplesOfOpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/testsoar.dir/canny/main.cpp.o"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testsoar.dir/canny/main.cpp.o -c /home/soar/examplesOfOpenCV/src/canny/main.cpp
 
-bin/CMakeFiles/testsoar.dir/morphology/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testsoar.dir/morphology/main.cpp.i"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soar/examplesOfOpenCV/src/morphology/main.cpp > CMakeFiles/testsoar.dir/morphology/main.cpp.i
+bin/CMakeFiles/testsoar.dir/canny/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testsoar.dir/canny/main.cpp.i"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soar/examplesOfOpenCV/src/canny/main.cpp > CMakeFiles/testsoar.dir/canny/main.cpp.i
 
-bin/CMakeFiles/testsoar.dir/morphology/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testsoar.dir/morphology/main.cpp.s"
-	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soar/examplesOfOpenCV/src/morphology/main.cpp -o CMakeFiles/testsoar.dir/morphology/main.cpp.s
+bin/CMakeFiles/testsoar.dir/canny/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testsoar.dir/canny/main.cpp.s"
+	cd /home/soar/examplesOfOpenCV/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soar/examplesOfOpenCV/src/canny/main.cpp -o CMakeFiles/testsoar.dir/canny/main.cpp.s
 
-bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.requires:
+bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.requires:
 
-.PHONY : bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.requires
+.PHONY : bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.requires
 
-bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.provides: bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.requires
-	$(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.provides.build
-.PHONY : bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.provides
+bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.provides: bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.requires
+	$(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.provides.build
+.PHONY : bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.provides
 
-bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.provides.build: bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o
+bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.provides.build: bin/CMakeFiles/testsoar.dir/canny/main.cpp.o
 
 
 # Object files for target testsoar
 testsoar_OBJECTS = \
-"CMakeFiles/testsoar.dir/morphology/main.cpp.o"
+"CMakeFiles/testsoar.dir/canny/main.cpp.o"
 
 # External object files for target testsoar
 testsoar_EXTERNAL_OBJECTS =
 
-bin/testsoar: bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o
+bin/testsoar: bin/CMakeFiles/testsoar.dir/canny/main.cpp.o
 bin/testsoar: bin/CMakeFiles/testsoar.dir/build.make
 bin/testsoar: /usr/lib/libopencv_stitching.so.3.2.0
 bin/testsoar: /usr/lib/libopencv_superres.so.3.2.0
@@ -142,7 +142,7 @@ bin/CMakeFiles/testsoar.dir/build: bin/testsoar
 
 .PHONY : bin/CMakeFiles/testsoar.dir/build
 
-bin/CMakeFiles/testsoar.dir/requires: bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o.requires
+bin/CMakeFiles/testsoar.dir/requires: bin/CMakeFiles/testsoar.dir/canny/main.cpp.o.requires
 
 .PHONY : bin/CMakeFiles/testsoar.dir/requires
 

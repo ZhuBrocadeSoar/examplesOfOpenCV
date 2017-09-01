@@ -171,32 +171,32 @@ testsoar/fast:
 	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/build
 .PHONY : testsoar/fast
 
-morphology/main.o: morphology/main.cpp.o
+canny/main.o: canny/main.cpp.o
 
-.PHONY : morphology/main.o
+.PHONY : canny/main.o
 
 # target to build an object file
-morphology/main.cpp.o:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/morphology/main.cpp.o
-.PHONY : morphology/main.cpp.o
+canny/main.cpp.o:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/canny/main.cpp.o
+.PHONY : canny/main.cpp.o
 
-morphology/main.i: morphology/main.cpp.i
+canny/main.i: canny/main.cpp.i
 
-.PHONY : morphology/main.i
+.PHONY : canny/main.i
 
 # target to preprocess a source file
-morphology/main.cpp.i:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/morphology/main.cpp.i
-.PHONY : morphology/main.cpp.i
+canny/main.cpp.i:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/canny/main.cpp.i
+.PHONY : canny/main.cpp.i
 
-morphology/main.s: morphology/main.cpp.s
+canny/main.s: canny/main.cpp.s
 
-.PHONY : morphology/main.s
+.PHONY : canny/main.s
 
 # target to generate assembly for a file
-morphology/main.cpp.s:
-	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/morphology/main.cpp.s
-.PHONY : morphology/main.cpp.s
+canny/main.cpp.s:
+	cd /home/soar/examplesOfOpenCV/build && $(MAKE) -f bin/CMakeFiles/testsoar.dir/build.make bin/CMakeFiles/testsoar.dir/canny/main.cpp.s
+.PHONY : canny/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... morphology/main.o"
-	@echo "... morphology/main.i"
-	@echo "... morphology/main.s"
+	@echo "... canny/main.o"
+	@echo "... canny/main.i"
+	@echo "... canny/main.s"
 .PHONY : help
 
 

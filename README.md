@@ -4,6 +4,16 @@ A set of example to use OpenCV.
 
 It is a good way to learn OpenCV.
 
+# Develop Logs
+
+2017年8月25日11:52 准备使用进度条方法来观察高斯模糊参数变化产生的影响
+
+2017年8月25日12:54 准备使用进度条方法来观察锐化效果参数变化产生的影响
+
+2017年8月25日15:36 模糊、锐化效果展示器开发完成，接下来直接研究canny边缘检测器
+
+2017年9月1日18:48 canny滤波器完成，接下来是LoG滤波器
+
 # Mans of functions and others
 
 I find that my book is not good for learning OpenCV, It's mix the C API and the C++ API, I thik i must do something.My book is ***Arduino Computer Vision Programming*** by Ozen Ozkaya and Giray Yillikci, translated by Zhang Huadong.
@@ -269,4 +279,13 @@ I will do something.
 
 	```c++
     int cv::createTrackbar(const String & trackbarname, const String & winname, int * value, int count, TrackbarCallback onChange = 0, void * userdata = 0)
+    ```	
+
+### setTrackbarPos()
+* From		:	None
+* Include	:	opencv2/highgui.hpp	
+* Ref		:	[setTrackbarPos()](http://docs.opencv.org/master/d7/dfc/group__highgui.html#ga67d73c4c9430f13481fd58410d01bd8d)
+
+	```c++
+    void cv::setTrackbarPos(const String & trackbarname, const String & winname, int pos)
     ```	

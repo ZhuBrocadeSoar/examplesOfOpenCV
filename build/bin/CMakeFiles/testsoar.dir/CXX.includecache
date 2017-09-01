@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soar/examplesOfOpenCV/src/morphology/main.cpp
+/home/soar/examplesOfOpenCV/src/canny/main.cpp
 iostream
 -
 opencv2/core.hpp
