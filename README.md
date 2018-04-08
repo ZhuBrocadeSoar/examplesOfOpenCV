@@ -325,6 +325,7 @@ I will do something.
                    const Size & dstsize = Size(),
                    int borderType = BORDER_DEFAULT)
     ```
+
 Size(src.cols \* 2, src.rows \* 2)
 
 |dstsize.width - src.cols \* 2| lte (dstsize.width mod 2)
