@@ -317,16 +317,18 @@ I will do something.
 
 ### [pyrUp()](https://docs.opencv.org/3.4.0/d4/d86/group__imgproc__filter.html#gada75b59bdaaca411ed6fee10085eb784)
 
-    #include<opencv2/imgproc.hpp>
+* Include   :   opencv2/imgproc.hpp
 
-    void cv::pyrUp(InputArray src,
-                   OutputArray dst,
-                   const Size & dstsize = Size(),
-                   int borderType = BORDER_DEFAULT)
+    ```c++
+    void cv::pyrUp(InputArray src, OutputArray dst, const Size & dstsize = Size(), int borderType = BORDER_DEFAULT)
+    ```
+
+
+* notes:
 
 Size(src.cols \* 2, src.rows \* 2)
 
 |dstsize.width - src.cols \* 2| lte (dstsize.width mod 2)
 
-|dstsize.width - src.cols \* 2| lte (dstsize.width mod 2)
+|dstsize.height - src.cols \* 2| lte (dstsize.height mod 2)
 
