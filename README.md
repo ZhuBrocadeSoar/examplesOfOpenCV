@@ -332,3 +332,17 @@ Size(src.cols \* 2, src.rows \* 2)
 
 |dstsize.height - src.cols \* 2| lte (dstsize.height mod 2)
 
+### [pyrDown()](https://docs.opencv.org/3.4.0/d4/d86/group__imgproc__filter.html#gaf9bba239dfca11654cb7f50f889fc2ff)
+
+* Include   :   opencv2/imgproc.hpp 
+
+    ```c++
+    void cv::pyrDown(InputArray src, OutputArray dst, const Size & dstsize = Size(), int borderType = BORDER_DEFAULT)
+    ```
+
+* notes:
+
+Size((src.colsls + 1) / 2, (src.rows + 1) / 2)
+
+|dstsize.width \* 2 - src.cols| lte 2
+|dstsize.height \* 2 - src.cols| lte 2
