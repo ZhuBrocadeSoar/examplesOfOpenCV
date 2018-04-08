@@ -1,1 +1,0 @@
-/home/soar/bin/testsoar
