@@ -313,3 +313,21 @@ I will do something.
     ```	
 
 * Ref		:	[Depth combinations](http://docs.opencv.org/master/d4/d86/group__imgproc__filter.html#filter_depths)
+
+
+### [pyrUp()](https://docs.opencv.org/3.4.0/d4/d86/group__imgproc__filter.html#gada75b59bdaaca411ed6fee10085eb784)
+
+    ```c++
+    #include<opencv2/imgproc.hpp>
+
+    void cv::pyrUp(InputArray src,
+                   OutputArray dst,
+                   const Size & dstsize = Size(),
+                   int borderType = BORDER_DEFAULT)
+    ```
+Size(src.cols \* 2, src.rows \* 2)
+
+|dstsize.width - src.cols \* 2| lte (dstsize.width mod 2)
+
+|dstsize.width - src.cols \* 2| lte (dstsize.width mod 2)
+
